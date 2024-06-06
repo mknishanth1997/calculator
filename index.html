@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <script src="calculator.js" defer></script>
+    <link id="stylesheet" rel="stylesheet" href="stylesheet.css">
+    <link id="orange1" rel="stylesheet" href="orangeGradient1.css">
+    <link id="orange2" rel="stylesheet" href="">
+    <link id="white" rel="stylesheet" href="">
+    <link id="black" rel="stylesheet" href="">
+    <link id="yellow" rel="stylesheet" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+        <div class="themes-buttons">
+            <h1>Themes:</h1>
+            <div>
+                <button value="white" class="white thb">White</button>
+                <button value="black" class="black thb">Black</button>
+                <button value="yellow" class="yellow thb">Yellow</button>
+                <button value="orangeGradient1" class="og1 thb">Orange Gradient 1</button>
+                <button value="orangeGradient2" class="og2 thb">Orange Gradient 2</button>
+            </div>
+        </div>   
+        <!-- Calc -->
+        <div class="calculator">
+            <div class="display">
+                <div class="value-display"></div>
+                <div class="answer-display"></div>
+            </div>
+            <div class="calculator-buttons">
+                <div class="first-row-buttons">
+                    <button class="calc-btn gray ac" value="ac">AC</button>
+                    <button class="calc-btn gray special-minus" value="-">+/-</button>
+                    <button class="calc-btn gray operator" value="%">%</button>
+                    <button class="calc-btn orange operator" value="/">/</button>
+                </div>
+                <div class="second-row-buttons">
+                    <button class="calc-btn num operand" value="7">7</button>
+                    <button class="calc-btn num operand" value="8">8</button>
+                    <button class="calc-btn num operand" value="9">9</button>
+                    <button class="calc-btn orange operator" value="*">*</button>
+                </div>
+                <div class="third-row-buttons">
+                    <button class="calc-btn num operand" value="4">4</button>
+                    <button class="calc-btn num operand" value="5">5</button>
+                    <button class="calc-btn num operand" value="6">6</button>
+                    <button class="calc-btn orange operator" value="-">-</button>
+                </div>
+                <div class="fourth-row-buttons">
+                    <button class="calc-btn num operand" value="1">1</button>
+                    <button class="calc-btn num operand" value="2">2</button>
+                    <button class="calc-btn num operand" value="3">3</button>
+                    <button class="calc-btn orange operator" value="+">+</button>
+                </div>
+                <div class="fifth-row-buttons">
+                    <div class="sub-fifth-first">
+                        <button class="calc-btn num operand" value="0">0</button>
+                    </div>
+                    <div class="sub-fifth-second">
+                        <button class="calc-btn num dot" value=".">.</button>
+                        <button class="calc-btn orange eqal-to" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    background: linear-gradient(135deg, #f0f0f0 0%, #c0c0c0 100%);
+    /* background-color: black; */
+    background-image: url(yellow1.jpg);
+    background-size: cover;
+}
+.og1 {
+    background: radial-gradient(circle, #ff6600 0%, #ff3300 70%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* border: 5px solid orangered; */
+    border-radius: 20px;
+    font-weight: bolder ;
+}
+.og1:active {
+    top: 2px; /* Move the button down slightly on click */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.2); /* Slightly reduce the box-shadow */
+    background: radial-gradient(circle, #ff5500 0%, #ff2200 70%);
+}
+.og2 {
+    background: radial-gradient(circle, #ff6600 50%, #ff3300 70%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* border: 5px solid orangered; */
+    border-radius: 20px;
+}
+.og2:active {
+    top: 2px; /* Move the button down slightly on click */
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 2px 8px rgba(0, 0, 0, 0.2); /* Slightly reduce the box-shadow */
+    background: radial-gradient(circle, #ff5500 0%, #ff2200 70%);
+}
+.yellow {
+    background-color: #ffd700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+}
+.yellow:active {
+    top: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.limeGreen {
+    background-color: #00ff00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+}
+.limeGreen:active {
+    top: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.white {
+    background-color: green;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+}
+.white:active {
+    top: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.black {
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.black:active {
+    top: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(143, 8, 8, 0.2);
+}
+
+/* Calculator */
+.calculator{
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                      5px 5px rgba(0,0,0,.16);
+    border:none;
+    padding: 16px;
+}
+.calc-btn {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 50%; /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+    color: black; /* Text color */
+    font-size: 32px; /* Adjust text size as needed */
+    padding: 15px 20px; /* Adjust padding as needed */
+    margin: 10px; /* Adjust margin as needed */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s, background 0.2s; /* Smooth transitions */
+}
+.calc-btn:hover {
+    background: rgba(255, 255, 255, 0.3); /* Slightly more opaque on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+.calc-btn:active {
+    background: rgba(255, 255, 255, 0.4); /* More opaque on active */
+    transform: translateY(2px); /* Move down slightly on active */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 0 15px rgba(255, 255, 255, 0.4); /* Inset shadow to simulate press */
+}
+.sub-fifth-first > button{
+    border-radius: 20px;
+}
+.display{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;  
+}

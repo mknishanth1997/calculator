@@ -1,0 +1,143 @@
+body {
+   /* border: 10px solid blue; */
+   height: 100vh;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-family: sans-serif;
+   background-color: white;
+}
+.themes-buttons {
+    /* border: 2px solid red; */
+}
+/* Themes Buttons */
+
+.themes-buttons {
+    display: flex;
+    gap: 26px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.themes-buttons > h1 {
+    font-size: 50px;
+    /* border: 2px solid black; */
+
+}
+.themes-buttons > div > button {
+    font-size: 24px;
+    padding: 25px;
+}
+.themes-buttons > div {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 16px;
+}
+
+/* Calculator  */
+
+.calculator {
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.display {
+    /* border: 2px solid black; */
+    flex: 0.3;
+}
+.calculator-buttons {
+    /* border: 2px solid black; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.calc-btn {
+    font-size: 24px;
+    padding: 25px;
+}
+.first-row-buttons {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 8px;
+}
+.first-row-buttons > button {
+    flex: 1;
+}
+
+.second-row-buttons {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 8px;
+}
+.second-row-buttons > button {
+    flex: 1;
+}
+
+.third-row-buttons {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 8px;
+}
+.third-row-buttons > button {
+    flex: 1;
+}
+
+.fourth-row-buttons {
+    /* border: 2px solid black; */
+    display: flex;
+    gap: 8px;
+}
+.fourth-row-buttons > button {
+    flex: 1;
+}
+
+.fifth-row-buttons {
+    display: flex;
+    gap: 8px;
+    /* border: 5px solid black; */
+}
+.sub-fifth-first {
+    flex: 1;
+    display: flex;
+}
+.sub-fifth-first > button {
+    flex: 1;
+}
+.sub-fifth-second {
+    flex: 1;
+    display: flex;
+    gap: 8px;
+}
+.sub-fifth-second > button{
+    flex: 1;
+}
+
+.display {
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+.value-display {
+    /* border: 2px solid black; */
+    flex: .5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 28px;
+}
+.answer-display {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size:  48px;
+    padding-bottom: 10px;
+}
+
+
